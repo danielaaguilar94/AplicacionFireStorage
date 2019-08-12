@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "914328325908",
+    "firebase_url": "https://proyectofirestorage.firebaseio.com",
+    "project_id": "proyectofirestorage",
+    "storage_bucket": "proyectofirestorage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914328325908:android:ea9d690ae2bc6891",
+        "android_client_info": {
+          "package_name": "daniaguilar.example.aplicacionfirestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914328325908-f96kraqfmi99n8nq60ku9gslg7gv41ss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "daniaguilar.example.aplicacionfirestorage",
+            "certificate_hash": "8fc4985911d21dd862b4db0536d69a1081e777cd"
+          }
+        },
+        {
+          "client_id": "914328325908-0oot7s6g7uc7n5nhsogrp8c9t73sehe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF7bAvsdjhIyxMRR7DcJYaH1yNOdoyXgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914328325908-0oot7s6g7uc7n5nhsogrp8c9t73sehe1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
