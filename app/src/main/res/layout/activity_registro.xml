@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".RegistroActivity">
+
+    <TextView
+        android:id="@+id/tvRegistrarCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Registra los siguientes datos:"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:id="@+id/imageRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editRegistrarNombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Ingresa tu Nombre de Usuario"
+        android:layout_marginTop="60dp"
+        android:drawableLeft="@drawable/ic_nombreusuario_24dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editRegistrarEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Ingresa tu dirección Email"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_email_black_24dp"/>
+
+    <EditText
+        android:id="@+id/editRegistrarContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"/>
+
+    <EditText
+        android:id="@+id/editConfirmRegistrarContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Confirmar contraseña"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"/>
+
+    <Button
+        android:id="@+id/btnRegistrarCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_iniciarsesion_24dp"
+        android:text="   Registrar cuenta" />
+
+</LinearLayout>
