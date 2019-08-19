@@ -45,7 +45,7 @@ public class RegistroActivity extends AppCompatActivity implements View.OnClickL
 
         //se inicializa la instancia FirebaseAuth
         firebaseAuth = FirebaseAuth.getInstance();
-        //referenciamos los views EditText
+        //referenciamos los views EditText y boton
         etRegistrarNombreUsuario = findViewById(R.id.editRegistrarNombreUsuario);
         etRegistrarEmail = findViewById(R.id.editRegistrarEmail);
         etRegistrarPass = findViewById(R.id.editRegistrarContraseña);
